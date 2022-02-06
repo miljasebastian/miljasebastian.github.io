@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(26, 25, 25);
+    align-items: center;
+    justify-content: center;
+  }
+  header{
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  .navbar{
+    position: sticky;
+    font-size: 1.25rem;
+  }
+  img{
+    height:15rem;
+    width:15rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+    object-fit: fill;
+    border: 0.2rem solid;
+    color: rgb(255, 213, 23);
+  }
+  .responsive{
+    max-width: 15rem;
+    height: auto;
+  }
+  .Home {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(26, 25, 25);
+    color: rgb(255, 213, 23);
+    padding: 150px 0px 0px 120px;
+    height: 100%;
+  }
+  span{
+    color: rgb(255, 255, 255);
+  }
+  .About {
+    color: rgb(255, 213, 23);
+    padding: 100px 0px 0px 120px;
+    height: 100%;
+  }
+  .Education{
+    color: rgb(255, 213, 23);
+    padding: 100px 0px 0px 120px;
+    height: 100%;
+  }
+  .Contact{
+    color: rgb(255, 213, 23);
+    padding: 100px 0px 0px 120px;
+    height: 100%;
+  }
+  .Skills{
+    color: rgb(255, 213, 23);
+    padding: 100px 0px 0px 120px;
+    height: 100%;
+  }
